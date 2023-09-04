@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    width: 40%;
+    /*height: 200%;*/
+    margin-top: auto;
+    padding: 10%;
+    margin: 0%;
+  }
+
+  .cuadro {
+    flex: 1;
+    height: 450px;
+    border: none;
+    border-radius: 30px;
+  }
+
+  .blanco {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color:rgb(34, 34, 34);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(175, 201, 243, 0.5);
+   
+  }
+
+  .morado {
+    background: linear-gradient(rgb(85, 85, 202), rgb(84, 63, 202), rgb(63, 27, 192)); 
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(195, 202, 208);
+    text-align: center;
+   
+  }
+
+  footer{
+    text-align: center;
+    padding: 20px;
+  }
+
+  h2{
+    margin-top: 37px;
+  }
+
+.texto-margen-derecha {
+    margin-left: 20px;
+}
+
+.circulo {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(63, 27, 192);
+  border-radius: 50%; /* Crea un círculo con border-radius */
+ /* display: flex;*/
+  justify-content: center;
+  align-items: center;
+  font-size: 24px; /* Cambia el tamaño de fuente según tus preferencias */
+  margin-left: 20%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.numero-grande {
+  display: block;
+  font-size: 60px; 
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  
+  
+ 
+}
+
+.numero-pequeno {
+  display: block;
+  font-size: 16px; 
+  color: rgb(195, 202, 208);
+  font-family:Arial, Helvetica, sans-serif;
+  
+}
+
+.reaction{
+  background-color:  #fcf4f4; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px; /* Añade espacio interno al cuadro */
+  border-radius: 10px; /* Redondea las esquinas del cuadro */
+  color: crimson;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .reaction-text {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 170px; /* Espacio horizontal entre "Reaction" y el espacio */
+}
+
+.spacer {
+  flex-grow: 1; /* El espacio horizontal ocupará todo el espacio disponible */
+  height: 0; /* Evita que el espacio afecte la altura del div */
+}
+
+.score {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.memory{
+  background-color:  #fffedb; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px; /* Añade espacio interno al cuadro */
+  border-radius: 10px; /* Redondea las esquinas del cuadro */
+  color: rgb(245, 232, 62);
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .memory-text {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 170px; /* Espacio horizontal entre "Reaction" y el espacio */
+}
+
+.m-spacer {
+  flex-grow: 1; /* El espacio horizontal ocupará todo el espacio disponible */
+  height: 0; /* Evita que el espacio afecte la altura del div */
+}
+
+.m-score {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.verbal{
+  background-color:  #dffff8; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px; /* Añade espacio interno al cuadro */
+  border-radius: 10px; /* Redondea las esquinas del cuadro */
+  color: rgb(62, 245, 218);
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .verbal-text {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 170px; /* Espacio horizontal entre "Reaction" y el espacio */
+}
+
+.v-spacer {
+  flex-grow: 1; /* El espacio horizontal ocupará todo el espacio disponible */
+  height: 0; /* Evita que el espacio afecte la altura del div */
+}
+
+.v-score {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.visual{
+  background-color:  #ebe9fd; /* Cambia el color de fondo según tus preferencias */
+  padding: 20px; /* Añade espacio interno al cuadro */
+  border-radius: 10px; /* Redondea las esquinas del cuadro */
+  color: rgb(96, 62, 245);
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+ }
+
+ .visual-text {
+  font-weight: bold; /* Texto en negrita */
+  margin-right: 170px; /* Espacio horizontal entre "Reaction" y el espacio */
+}
+
+.vi-spacer {
+  flex-grow: 1; /* El espacio horizontal ocupará todo el espacio disponible */
+  height: 0; /* Evita que el espacio afecte la altura del div */
+}
+
+.vi-score {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.custom-button {
+  /* Cambiar el tamaño del botón */
+  font-size: 14px; /* Ajusta el tamaño de fuente según tus preferencias */
+  padding: 16px 120px; /* Ajusta el espaciado interno para hacer el botón más grande */
+  /* Cambiar el color del botón a negro */
+  background-color: rgb(55, 55, 57);
+  color: white; /* Cambiar el color del texto a blanco */
+  border: none; /* Eliminar el borde */
+  /* Centrar el botón horizontalmente en su contenedor */
+  margin: 0 auto;
+  border-radius: 30px;
+  display: block; /* Convertirlo en un elemento de bloque para centrarlo */
+}
+
